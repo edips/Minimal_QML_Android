@@ -14,7 +14,8 @@ RESOURCES += qml.qrc
 
 
 ANDROID_DEPLOYMENT_DEPENDENCIES += \
-    jar/ \
+    jar/QtAndroid.jar \
+    jar/QtAndroidExtras.jar \
     lib/libQt5Core.so \
     lib/libQt5Gui.so \
     lib/libQt5Network.so \
